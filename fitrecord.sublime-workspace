@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"max",
+				"max_amount"
+			],
+			[
+				"ma",
+				"max_amount"
+			],
+			[
+				"lin",
+				"line2_left"
+			],
+			[
+				"ex",
+				"export_path"
+			],
+			[
+				"im",
+				"image_path"
+			],
+			[
+				"lender",
+				"lendercasenum"
+			],
+			[
+				"proper",
+				"propertystreet"
+			],
+			[
+				"db",
+				"db_result"
+			],
+			[
+				"path",
+				"path_parts"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"api",
+				"apiKey"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"app",
+				"approvalAmount"
+			],
+			[
+				"l",
+				"lender_case_num"
+			],
+			[
+				"loan",
+				"loan_officer_id"
+			],
+			[
+				"lend",
+				"lenderCaseNum"
+			],
+			[
+				"Len",
+				"lenderCaseNum"
+			],
+			[
+				"len",
+				"lenderCaseNum"
+			],
+			[
+				"lo",
+				"loan_officer_id"
+			],
+			[
+				"Date",
+				"date_format"
+			],
+			[
+				"log",
+				"logo_path"
+			],
+			[
+				"Hel",
+				"Helvetica"
+			],
+			[
+				"Pre",
+				"PrequalLetter"
+			],
+			[
+				"P",
+				"PDF"
+			],
+			[
+				"foo",
+				"footer_text"
+			],
+			[
+				"bo",
+				"body_text"
+			],
+			[
+				"hea",
+				"header_text"
+			],
+			[
+				"le",
+				"letter_id"
+			],
+			[
+				"prequal",
+				"prequal-letter"
+			],
+			[
+				"sto",
+				"story-container"
+			],
+			[
+				"remove",
+				"remove_hover"
+			],
+			[
+				"show",
+				"show_story"
+			],
+			[
+				"togg",
+				"toggle_name_edit"
+			],
+			[
+				"feature",
+				"feature-group"
+			],
+			[
+				"story",
+				"story-title"
+			],
+			[
+				"detail",
+				"detail-view"
+			],
+			[
+				"mous",
+				"mouseover"
+			],
+			[
+				"dea",
+				"detail-view"
+			],
+			[
+				"deta",
+				"detail-view"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"projec",
+				"project-item"
+			],
+			[
+				"cre",
+				"credit_card_info"
+			],
+			[
+				"all",
+				"all_actions_per_context"
+			],
+			[
+				"cut_off_",
+				"cut_off_3months"
+			],
+			[
+				"tags",
+				"tags_divisor_90days"
+			],
+			[
+				"tags_min",
+				"tags_min_90days"
+			],
+			[
+				"cut",
+				"cut_off_3months"
+			],
+			[
+				"tags_for",
+				"tags_for_cloud_90days"
+			],
+			[
+				"tags_fo",
+				"tags_for_cloud_90days"
+			],
+			[
+				"Tag",
+				"TagCloud"
+			],
+			[
+				"curre",
+				"current_user"
+			],
+			[
+				"sign",
+				"sign_out"
+			],
+			[
+				"si",
+				"sign_out"
+			],
+			[
+				"tim",
+				"timesheet"
+			],
+			[
+				"hours",
+				"hours_worked_per_day"
+			],
+			[
+				"group",
+				"group_hours"
+			],
+			[
+				"gr",
+				"group_by"
+			],
+			[
+				"create",
+				"created_at"
+			],
+			[
+				"project",
+				"project_id"
+			],
+			[
+				"do",
+				"dow	downto(0) { |n| .. }"
+			],
+			[
+				"to_",
+				"to_f"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"begi",
+				"beginning_of_week"
+			],
+			[
+				"creat",
+				"created_at"
+			],
+			[
+				"total",
+				"total_work"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"estim",
+				"estimated_completion_date"
+			],
+			[
+				"lift",
+				"lift_result_params"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "App = Ember.Application.create({\n  LOG_TRANSITIONS: true\n});\n\nApp.Router.map(function() {\n  this.route('about', { path: 'aboutus' });\n});\n\nApp.IndexRoute = Ember.Route.extend({\n  model: function() {\n    return ['red', 'yellow', 'blue'];\n  }\n});\n\nApp.IndexController = Ember.Controller.extend({\n  productsCount: 6\n});\n",
+			"file": "js/app.js",
+			"file_size": 245,
+			"file_write_time": 1394502140000000,
+			"settings":
+			{
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.html",
+			"settings":
+			{
+				"buffer_size": 1991,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/fitrecord/README.md",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/dynamic-form/app/controllers/select_controller.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/dynamic-form/app/templates/application.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/dynamic-form/README.md",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/application.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/books.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/index.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/books/edit.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/books/new.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/books/index.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/books/form.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/views/layouts/application.html.erb",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/assets/stylesheets/application.scss",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/books-eakr.sublime-workspace",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/Gemfile",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/router.js.es6",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/routes/books/index.js.es6",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/routes.rb",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/application.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/adapters/application.js.es6.erb",
+		"/Users/mikepmunroe/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/_posts/2014-02-05-building-an-ember-app-with-ember-app-kit-rails-part-3.md",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/assets/javascripts/application.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/bower_components/ember-addons.bs_for_ember/Gruntfile.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/bower_components/ember-addons.bs_for_ember/app/index.html",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/todo.md",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/DbHandler.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/db/prequal.sql",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/PrequalLetter.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/v1/index.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/Authentication.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/DbConnect.php",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/environments/development.js.erb",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/serializers/book_serializer.rb",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/environments/development.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/config/router.es6",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/routes/books.js.es6",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/controllers/application_controller.rb",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/app/templates/applicaiton.hbs",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/books-EAKR/Gemfile.lock",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/_includes/themes/mg/default.html",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/assets/themes/mg/css/syntax.css",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/assets/themes/mg/css/screen.css",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/assets/themes/tom/css/screen.css",
+		"/Users/mikepmunroe/Dropbox/src/munroegroup/munroegroup.github.com/_drafts/jekyll-introduction-draft.md",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/db/seed_prequal.sql",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/README.md",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/v1/.htaccess",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/js/rifiniti-app-concat.js",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/js/temp.js",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/tabs/space-utilization.html",
+		"/Users/mikepmunroe/Downloads/overview.ejs",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/src/building.class.js",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/settings.py",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/src/property-object.class.js",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/urls.py",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/templates/space-utilization/overview.ejs",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/static/templates/space-utilization/detail-summary.ejs",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/rifinit/rifiniti_ui/session/readme.txt",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/Authention.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate_bak/inc/Authenticate.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/db/apikeys.sql",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/Config.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate_bak/inc/PrequalLetter.php'",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/vendor/fpdf/fpdf.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/PDF.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/vendor/slim/slim/tests/bootstrap.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/vendor/autoload.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/inc/DBConnect.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/index.php",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/composer.lock",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/composer.json",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/.htaccess",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/index.html",
+		"/Users/mikepmunroe/Sites/easymortgageapps/prequal-letter-estimate/PrequalLetter.php",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/easymortgageapps/prequal-letter-estimate/index.php",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/easymortgageapps/prequal-letter-estimate/PrequalLetter.php",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/benchmarks/benchmark.js",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/packages/container/lib/main.js",
+		"/Users/mikepmunroe/Dropbox/src/ember/data/Rakefile",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/dist/ember-data-deps.js",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/Rakefile",
+		"/Users/mikepmunroe/Dropbox/src/ember/website/Rakefile",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/docs/build/data.json",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/package.json",
+		"/Users/mikepmunroe/Dropbox/src/ember/ember.js/packages/ember/lib/main.js",
+		"/Users/mikepmunroe/Dropbox/src/ember/rsvp.js/lib/rsvp/cast.js",
+		"/Users/mikepmunroe/Dropbox/src/yuidoc/tests/input/test/test.js",
+		"/Users/mikepmunroe/Dropbox/src/ember/website/data/api.yml",
+		"/Users/mikepmunroe/Dropbox/src/ember/website/data/data_api.yml",
+		"/Users/mikepmunroe/Dropbox/src/ember/rsvp.js/lib/rsvp/hash.js",
+		"/Users/mikepmunroe/Dropbox/src/yuidoc/themes/default/partials/method.handlebars",
+		"/Users/mikepmunroe/Dropbox/src/yuidoc/output/api/assets/css/main.css",
+		"/Users/mikepmunroe/Dropbox/src/yuidoc/themes/default/assets/css/main.css",
+		"/Users/mikepmunroe/Dropbox/src/yuidoc/themes/simple/assets/css/main.css",
+		"/Users/mikepmunroe/Dropbox/src/ember/rsvp.js/out/assets/css/main.css",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/website/Rakefile",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/Rakefile",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/docs/package.json",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/docs/yuidoc.json",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/packages/ember-handlebars/lib/helpers/collection.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/website/source/guides/templates/actions.md",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/build/data.json",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/ember.js/packages/ember/lib/main.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/website/data/api.yml",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/website/source/guides/components/handling-user-interaction-with-actions.md",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/project_page/story.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/stylesheets/partials/_story.scss",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/models/story.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/README.md",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/tasks/options/yuidoc.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/package.json",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/Gruntfile.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/tasks/options/mocha_phantomjs.js",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/yuidoc.json",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/templates/stories/item.jst.eco",
+		"/Users/mikepmunroe/Dropbox/Munroe Group/Planscope/notes.txt",
+		"/Users/mikepmunroe/Dropbox/src/ember_projects/rsvp.js/lib/rsvp/cast.js",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/project_page/feature_group.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/templates/dashboard/story.jst.eco",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/project_page/task_runner.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/modals/add_time.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/modals/activity_log.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/story_page/activity.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/controllers/activities_controller.rb",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/project_page/project_list.js.coffee",
+		"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views/project_page/hover_panel.js.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/mikepmunroe/Dropbox/src/yuidoc",
+			"",
+			"/Users/mikepmunroe/Dropbox/src/yuidoc/tests",
+			"",
+			"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/templates",
+			"",
+			"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/templates",
+			"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/stylesheets/partials",
+			"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/assets/javascripts/app/views",
+			"",
+			"/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/controllers,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/helpers,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/mailers,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/manifests,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/models,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/uploaders,/Users/mikepmunroe/Dropbox/src/client_projects/projector/app/views",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navbar-right",
+			"jquery",
+			"add new book",
+			"$row-width",
+			".top-bar",
+			"padding",
+			"padding: 0 15px;",
+			"new book",
+			"Books",
+			"Welcome to Books",
+			"foundation",
+			"foundation.min.css",
+			"this.render",
+			"Ember.Route.Extend",
+			"indexroute",
+			".Store",
+			"Foundation",
+			"foundation rails",
+			"bootstrap",
+			"build",
+			"usemin",
+			"ember.js",
+			"<script src=\"/vendor/ember/ember.js\">",
+			"handlebars",
+			"vendor",
+			"<title>BooksEakr</title>",
+			"rails-api",
+			"echo",
+			"retrieveApiKey",
+			"Requested amount is greater than max loan amount",
+			"retrievemax",
+			"retrieve",
+			"{\n",
+			"echo",
+			" . ",
+			", ",
+			"retrieveApiKey",
+			"retrieveapi",
+			"retrieveApiKey",
+			"get_result",
+			"createElement('script')",
+			"setup.js",
+			"post",
+			"img",
+			"getimagesize",
+			"image",
+			"getImageSize",
+			"finance",
+			"getSummaryChartBaseSettings",
+			"mike testing",
+			"mike",
+			"comparative view",
+			"peak utilization",
+			"potential savings",
+			".done",
+			"potential savings",
+			"console.log",
+			"potential savings",
+			"django.conf",
+			"dbSelect",
+			"dbInsert",
+			"function db",
+			"dbSelect",
+			"potential savings",
+			"potential saves",
+			"analysismanager",
+			"potential savings",
+			"Finance",
+			"IT",
+			"R&D",
+			"SelectedFloor",
+			"SelectedDepart",
+			"SelectedFloors",
+			"Department",
+			"department",
+			"getCurrentBuildings",
+			"department",
+			"RIFINITI.App.AnalysisManager.prop('type')",
+			"updateui",
+			"department",
+			"overview.ejs",
+			"Comparative View",
+			"portfolio summary",
+			"static",
+			"django.contrib.staticfiles",
+			"static",
+			"django.conf.urls",
+			"django.conf.urls.defaults",
+			"$db",
+			"generatePrequalLetter",
+			";\n",
+			"conn",
+			"Write(\"",
+			"        $pdf = new FPDF();\n        $pdf->AddPage();\n        $pdf->SetFont('Arial','B',16);\n        $pdf->Cell(40,10,'Hello World!');\n        $content = $pdf->Output('doc.pdf','F');",
+			"FPDF",
+			"require_once",
+			"bind_param",
+			"require 'vendor/autoload.php';",
+			".k",
+			".g",
+			"main repositories",
+			"preview",
+			"Documentation can be found here",
+			"Expose RSVP implementation",
+			"site.css",
+			"ember-data",
+			"@example",
+			"code",
+			"li",
+			"#EFEEED",
+			"code",
+			"then",
+			"RSVP.cast",
+			"Promise.resolve",
+			"ember_data_path",
+			"EMBER_DATA",
+			"EMBER_DATA_PATH",
+			"data",
+			"ember-data",
+			"ember data docs",
+			"ember:docs",
+			":docs",
+			"doc",
+			"yuidoc",
+			"yui",
+			"hi sara",
+			"blockless",
+			"blockless use"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			", ",
+			" . ",
+			"Write(5, \"",
+			"require",
+			".highlight .k",
+			".highlight .g",
+			"RSVP.Promise.Cast"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.html",
+					"settings":
+					{
+						"buffer_size": 1991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"selec",
+				"app/controllers/select_controller.js"
+			],
+			[
+				"appl",
+				"app/templates/application.hbs"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"adapter",
+				"config/adapters/application.js.es6.erb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"benchmark",
+				"ember.js/benchmarks/benchmark.js"
+			],
+			[
+				"",
+				"data/api.yml"
+			],
+			[
+				"story",
+				"app/assets/javascripts/app/views/project_page/story.js.coffee"
+			],
+			[
+				"story.js",
+				"app/assets/javascripts/app/models/story.js.coffee"
+			],
+			[
+				"_story",
+				"app/assets/stylesheets/partials/_story.scss"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"item",
+				"app/assets/javascripts/app/templates/stories/item.jst.eco"
+			],
+			[
+				"_stor",
+				"app/assets/stylesheets/partials/_story.scss"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/app/views/application.js.coffee"
+			],
+			[
+				"rou",
+				"app/assets/javascripts/app/router.js.coffee"
+			],
+			[
+				"tumb",
+				"spec/lib/tumblr_client_spec.rb"
+			],
+			[
+				"user_spe",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"subscription_invoi",
+				"spec/models/subscription_invoice_spec.rb"
+			],
+			[
+				"fake",
+				"features/support/fake_stripe.rb"
+			],
+			[
+				"time_mon",
+				"app/assets/javascripts/app/views/reports/time_money.js.coffee"
+			],
+			[
+				"report",
+				"app/controllers/reports_controller.rb"
+			],
+			[
+				"context_tota",
+				"app/views/stats/context_total_actions_data.html.erb"
+			],
+			[
+				"stat",
+				"app/controllers/stats_controller.rb"
+			],
+			[
+				"index.html.erb",
+				"app/views/stats/index.html.erb"
+			],
+			[
+				"lift",
+				"app/controllers/lifts_controller.rb"
+			],
+			[
+				"list",
+				"test/functional/lifts_controller_test.rb"
+			],
+			[
+				"user",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"applicat",
+				"config/application.rb"
+			],
+			[
+				"index",
+				"app/views/lift_results/index.html.erb"
+			],
+			[
+				"new",
+				"app/views/lifts/new.html.erb"
+			],
+			[
+				"inde",
+				"app/views/lifts/index.html.erb"
+			],
+			[
+				"_lif",
+				"app/views/lifts/_lift.html.erb"
+			],
+			[
+				"show",
+				"app/views/dashboards/show.html.erb"
+			],
+			[
+				"das",
+				"app/controllers/dashboards_controller.rb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"gra",
+				"R/graph.R"
+			],
+			[
+				"sign",
+				"app/assets/javascripts/routes/sign_in_route.coffee"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/routes/application_route.coffee"
+			],
+			[
+				"bill",
+				"app/mailers/billing.rb"
+			],
+			[
+				"accou",
+				"app/models/account_membership.rb"
+			],
+			[
+				"account",
+				"app/models/account_membership.rb"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"time",
+				"app/models/timesheet.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"stor",
+				"app/models/story.rb"
+			],
+			[
+				"timeshe",
+				"app/models/timesheet.rb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"ind",
+				"app/views/lift_results/index.html.erb"
+			],
+			[
+				"lift_resul",
+				"app/controllers/lift_results_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true
+}

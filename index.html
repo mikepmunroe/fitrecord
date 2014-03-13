@@ -37,7 +37,7 @@
   <script type="text/x-handlebars" data-template-name="lifts">
     <h1>Lifts</h1>
     {{#each}}
-      <p>{{link-to id}}| {{date}} | {{name}} | {{repScheme}} | {{load}} | {{notes}}</p>
+      <p>{{#link-to 'lift' this}}{{id}}{{/link-to}} | {{date}} | {{name}} | {{repScheme}} | {{load}} | {{notes}}</p>
     {{/each}}
   </script>
 

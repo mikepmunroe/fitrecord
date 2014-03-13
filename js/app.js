@@ -9,12 +9,6 @@ App.Router.map(function() {
   this.resource('lift', { path: '/lifts/:id' });
 });
 
-App.IndexRoute = Ember.Route.extend({
-  model: function() {
-    return ['red', 'yellow', 'blue'];
-  }
-});
-
 App.LiftsRoute = Ember.Route.extend({
   model: function() {
     return App.Lifts;

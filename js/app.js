@@ -4,7 +4,6 @@ App = Ember.Application.create({
 
 App.Router.map(function() {
   this.route('about');
-  this.route('usersAndCompanies');
   this.resource('lifts');
   this.resource('lift', { path: 'lifts/:id' });
 });

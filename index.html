@@ -37,8 +37,16 @@
   <script type="text/x-handlebars" data-template-name="lifts">
     <h1>Lifts</h1>
     {{#each}}
-      <p>{{#link-to 'lift' this}}{{id}}{{/link-to}} | {{date}} | {{name}} | {{repScheme}} | {{load}} | {{notes}}</p>
+      <p>{{#link-to 'lift' this}}{{date}}{{/link-to}} | {{name}}</p>
     {{/each}}
+
+    <div>
+        {{outlet}}
+    </div>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="lifts/index">
+    <p>Click on a lift date to see more details.</p>
   </script>
 
   <script type="text/x-handlebars" data-template-name="lift">
@@ -49,9 +57,9 @@
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>
   <script src="js/libs/ember-1.4.0.js"></script>
+  <script src="js/libs/ember-data.min.js"></script>
   <script src="js/libs/bootstrap.js"></script>
   <script src="js/app.js"></script>
   <script src="tests/runner.js"></script>
-  <script src="http://builds.emberjs.com/beta/ember-data.js"></script>
 </body>
 </html>

@@ -19,9 +19,10 @@ App.LiftsRoute = Ember.Route.extend({
 
 App.Lift = DS.Model.extend({
   name: DS.attr('string'),
-  activites: DS.hasMany('activity', {async: true})
+  events: DS.hasMany('event', {async: true})
 });
-App.Activity = DS.Model.extend({
+
+App.Event = DS.Model.extend({
   date: DS.attr('date'),
   repScheme: DS.attr('number'),
   load: DS.attr('number'),
@@ -33,25 +34,28 @@ App.Lift.FIXTURES = [
   {
     id: 1,
     name: 'Back Squat',
+    events: [100]
   },
   {
     id: 2,
     name: 'Front Squat',
+    events: [101]
   }
 ];
-App.Activity.FIXTURES = [
+
+App.Event.FIXTURES = [
   {
-    id: 1,
+    id: 100,
     date: '10/25/2014',
-    lift: 'Back Squat',
+    lift: 1,
     repScheme: 1,
     load: 325,
     notes: ''
   },
   {
-    id: 2,
+    id: 101,
     date: '10/26/2014',
-    lift: 'Front Squat',
+    lift: 2,
     repScheme: 1,
     load: 305,
     notes: ''

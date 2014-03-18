@@ -35,18 +35,23 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="lifts">
-    <h1>Lifts</h1>
-    {{#each}}
-      <p>{{#link-to 'lift' this}}{{name}}{{/link-to}}</p>
-    {{/each}}
-
-    <div>
-        {{outlet}}
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Lifts</h1>
+        {{#each}}
+          <p>{{#link-to 'lift' this}}{{name}}{{/link-to}}</p>
+        {{/each}}
+      </div>
+      <div class="col-md-8">
+        <div>
+            {{outlet}}
+        </div>
+      </div>
     </div>
   </script>
 
   <script type="text/x-handlebars" data-template-name="lifts/index">
-    <p>Click on a lift date to see more details.</p>
+    <p>Click on a lift to see more details.</p>
   </script>
 
   <script type="text/x-handlebars" data-template-name="lift">

@@ -15,6 +15,7 @@
           <li>{{#link-to 'index'}}Home{{/link-to}}</li>
           <li>{{#link-to 'about'}}About{{/link-to}}</li>
           <li>{{#link-to 'lifts'}}Lifts{{/link-to}}</li>
+          <li>{{#link-to 'login'}}Login{{/link-to}}</li>
         </ul>
       </div>
     </div>
@@ -61,6 +62,15 @@
     {{else}}
       <p>No events for this lift.</p>
     {{/each}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="login">
+    <form class="form-inline">
+      <h2>Log In</h2>
+      {{input value=username type="text" placeholder="Username"}}
+      {{input value=password type="text" placeholder="Password"}}
+      {{input class="btn" type="submit" value="Log In"}}
+    </form>
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>

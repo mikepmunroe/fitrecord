@@ -6,6 +6,7 @@ App.ApplicationAdapter = DS.FixtureAdapter.extend();
 
 App.Router.map(function() {
   this.route('about');
+  this.route('login');
   this.resource('lifts', function() {
     this.resource('lift', { path: '/:lift_id' });
   });

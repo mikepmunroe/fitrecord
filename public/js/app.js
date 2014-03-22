@@ -27,9 +27,38 @@ App.Router.map(function() {
   });
 });
 
+App.LoginRoute = Ember.Route.extend({
+  setupController: function(controller, context) {
+    controller.reset();
+  }
+});
 App.LiftsRoute = Ember.Route.extend({
   model: function() {
     return this.store.findAll('lift');
+  }
+});
+
+// Controllers
+App.LoginController = Ember.Controller.extend({
+  actions: {
+    reset: function() {
+      this.setProperties({
+        username: "",
+        password: "",
+        errorMessage: "",
+      });
+    },
+    login: function() {
+      var self = this, data = this.getProperties('username', 'password');
+
+      self.set('errorMessage', null);
+      Ember.$.post('/auth.json', data).then(function(response) {
+        self.set('errorMessage',response.message);
+        if (response.success) {
+          self.set('token', response.token);
+        }
+      });
+    }
   }
 });
 

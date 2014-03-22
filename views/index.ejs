@@ -65,12 +65,15 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="login">
-    <form class="form-inline">
+    <form class="form-inline" {{action 'login' on='submit'}}>
       <h2>Log In</h2>
       {{input value=username type="text" placeholder="Username"}}
       {{input value=password type="text" placeholder="Password"}}
       {{input class="btn" type="submit" value="Log In"}}
     </form>
+    {{#if errorMessage}}
+      <div class="alert alert-error">{{errorMessage}}</div>
+    {{/if}}
   </script>
 
   <script src="/js/libs/jquery-1.10.2.js"></script>

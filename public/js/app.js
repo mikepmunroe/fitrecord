@@ -4,6 +4,21 @@ App = Ember.Application.create({
 
 App.ApplicationAdapter = DS.FixtureAdapter.extend();
 
+// Models
+App.Lift = DS.Model.extend({
+  name: DS.attr('string'),
+  events: DS.hasMany('event', {async: true})
+});
+
+App.Event = DS.Model.extend({
+  date: DS.attr('date'),
+  repScheme: DS.attr('number'),
+  load: DS.attr('number'),
+  notes: DS.attr('string'),
+  lift: DS.belongsTo('lift')
+});
+
+// Routes
 App.Router.map(function() {
   this.route('about');
   this.route('login');
@@ -18,19 +33,7 @@ App.LiftsRoute = Ember.Route.extend({
   }
 });
 
-App.Lift = DS.Model.extend({
-  name: DS.attr('string'),
-  events: DS.hasMany('event', {async: true})
-});
-
-App.Event = DS.Model.extend({
-  date: DS.attr('date'),
-  repScheme: DS.attr('number'),
-  load: DS.attr('number'),
-  notes: DS.attr('string'),
-  lift: DS.belongsTo('lift')
-});
-
+// Fixtures
 App.Lift.FIXTURES = [
   {
     id: 1,

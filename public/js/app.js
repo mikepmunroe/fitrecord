@@ -28,8 +28,8 @@ App.Router.map(function() {
 });
 
 App.LoginRoute = Ember.Route.extend({
-  setupController: function(controller, context) {
-    controller.reset();
+  setupController: function(controller, model) {
+    this.controllerFor('login').reset();
   }
 });
 App.LiftsRoute = Ember.Route.extend({
@@ -40,14 +40,14 @@ App.LiftsRoute = Ember.Route.extend({
 
 // Controllers
 App.LoginController = Ember.Controller.extend({
+  reset: function() {
+    this.setProperties({
+      username: "",
+      password: "",
+      errorMessage: ""
+    });
+  },
   actions: {
-    reset: function() {
-      this.setProperties({
-        username: "",
-        password: "",
-        errorMessage: "",
-      });
-    },
     login: function() {
       var self = this, data = this.getProperties('username', 'password');
 

@@ -18,6 +18,41 @@ app.use(express.session());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
+var currentToken;
+app.post('/auth.json', function(req, res) {
+
+  var body = req.body,
+      username = body.username,
+      password = body.password;
+
+  if (username == 'test' && password == 'test') {
+    // Generate and save the token (forgotten upon server restart).
+    currentToken = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    res.send({
+      success: true,
+      token: currentToken
+    });
+  } else {
+    res.send({
+      success: false,
+      message: 'Invalid username/password'
+    });
+  }
+});
+
+function validTokenProvided(req, res) {
+
+  // Check POST, GET, and headers for supplied token.
+  var userToken = req.body.token || req.param('token') || req.headers.token;
+
+  if (!currentToken || userToken != currentToken) {
+    res.send(403, { error: 'Invalid token. You provided: ' + userToken });
+    return false;
+  }
+
+  return true;
+}
+
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());

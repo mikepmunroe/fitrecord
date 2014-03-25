@@ -49,13 +49,13 @@ App.LoginController = Ember.Controller.extend({
   },
   actions: {
     login: function() {
-      var data = this.getProperties('username', 'password');
+      var self = this, data = this.getProperties('username', 'password');
 
-      this.set('errorMessage', null);
+      self.set('errorMessage', null);
       Ember.$.post('/auth.json', data).then(function(response) {
-        this.set('errorMessage',response.message);
+        self.set('errorMessage',response.message);
         if (response.success) {
-          this.set('token', response.token);
+          self.set('token', response.token);
         }
       });
     }

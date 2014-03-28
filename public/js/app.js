@@ -23,6 +23,7 @@ App.Router.map(function() {
   this.route('about');
   this.route('login');
   this.resource('lifts', function() {
+    this.route('new');
     this.resource('lift', { path: '/:lift_id' });
   });
 });
@@ -60,6 +61,11 @@ App.LoginController = Ember.Controller.extend({
       });
     }
   }
+});
+
+App.LiftsNewController = Ember.Controller.extend({
+  types: ["Back Squat", "Front Squat"],
+  schemes: ["1x", "3x", "5x", "10x"]
 });
 
 // Fixtures

@@ -1,8 +1,26 @@
-require('./db/db');
+
 var express = require('express');
 var http = require('http');
 var path = require('path');
+var fs = require('fs');
+var mongoose = require('mongoose');
 var routes = require('./routes');
+
+// Bootstrap models
+var modelsPath = path.join(__dirname, 'models');
+fs.readdirSync(modelsPath).forEach(function (file) {
+  if (/(.*)\.(js$|coffee$)/.test(file)) {
+    require(modelsPath + '/' + file);
+  }
+});
+
+var uristring = 'mongodb://localhost/fitrecord';
+
+mongoose.connect(uristring);
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function callback () {
+});
 
 var app = express();
 

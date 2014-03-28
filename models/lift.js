@@ -10,4 +10,3 @@ var Lift = new Schema({
 });
 
 mongoose.model( 'Lift', Lift );
-mongoose.connect( 'mongodb://localhost/fitrecord' );

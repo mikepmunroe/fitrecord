@@ -54,6 +54,7 @@
 
   <script type="text/x-handlebars" data-template-name="lifts/index">
     <p>Click on a lift to see more details.</p>
+    {{outlet}}
   </script>
 
   <script type="text/x-handlebars" data-template-name="lifts/new">
@@ -70,12 +71,16 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="lift">
-    <h1>Lift</h1>
-    {{#each events}}
-      <p>{{date}} | {{repScheme}} | {{load}} | {{notes}}</p>
-    {{else}}
-      <p>No events for this lift.</p>
-    {{/each}}
+    <h1>Results</h1>
+    {{outlet}}
+  </script>
+
+   <script type="text/x-handlebars" data-template-name="results/index">
+    <p>Lift results!</p>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="results">
+    <h1>Results</h1>
   </script>
 
   <script type="text/x-handlebars" data-template-name="login">

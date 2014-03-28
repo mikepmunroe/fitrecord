@@ -7,10 +7,10 @@ App.ApplicationAdapter = DS.FixtureAdapter.extend();
 // Models
 App.Lift = DS.Model.extend({
   name: DS.attr('string'),
-  events: DS.hasMany('event', {async: true})
+  results: DS.hasMany('result', {async: true})
 });
 
-App.Event = DS.Model.extend({
+App.Result = DS.Model.extend({
   date: DS.attr('date'),
   repScheme: DS.attr('number'),
   load: DS.attr('number'),
@@ -24,7 +24,15 @@ App.Router.map(function() {
   this.route('login');
   this.resource('lifts', function() {
     this.route('new');
-    this.resource('lift', { path: '/:lift_id' });
+    this.resource('lift', { path: '/:lift_id' }, function() {
+      this.route('edit');
+      this.resource('results', function() {
+        this.route('new');
+        this.resource('result', { path: '/:result_id' }, function() {
+          this.route('edit');
+        });
+      });
+    });
   });
 });
 
@@ -73,16 +81,16 @@ App.Lift.FIXTURES = [
   {
     id: 1,
     name: 'Back Squat',
-    events: [100]
+    results: [100]
   },
   {
     id: 2,
     name: 'Front Squat',
-    events: [101]
+    results: [101]
   }
 ];
 
-App.Event.FIXTURES = [
+App.Result.FIXTURES = [
   {
     id: 100,
     date: '10/25/2014',

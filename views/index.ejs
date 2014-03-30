@@ -15,6 +15,7 @@
           <li>{{#link-to 'index'}}Home{{/link-to}}</li>
           <li>{{#link-to 'about'}}About{{/link-to}}</li>
           <li>{{#link-to 'lifts'}}Lifts{{/link-to}}</li>
+          <li>{{#link-to 'results'}}Results{{/link-to}}</li>
           <li>{{#link-to 'login'}}Login{{/link-to}}</li>
         </ul>
       </div>
@@ -40,7 +41,7 @@
       <div class="col-md-4">
         <h1>Lifts</h1>
         {{#each}}
-          <p>{{#link-to 'lift' this}}{{name}}{{/link-to}}</p>
+          <p>{{#link-to 'lift' this}}{{this.name}}{{/link-to}}</p>
         {{/each}}
         <p>{{#link-to 'lifts.new'}}Add a New Lift{{/link-to}}</p>
       </div>
@@ -71,16 +72,20 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="lift">
-    <h1>Results</h1>
+    <h1>Lift Template</h1>
     {{outlet}}
   </script>
 
-   <script type="text/x-handlebars" data-template-name="results/index">
-    <p>Lift results!</p>
+  <script type="text/x-handlebars" data-template-name="lift/index">
+    <h1>Lift Index</h1>
+    {{outlet}}
   </script>
 
   <script type="text/x-handlebars" data-template-name="results">
     <h1>Results</h1>
+    {{#each}}
+      <p>{{#link-to 'result' this}}{{this.date}}{{/link-to}}</p>
+    {{/each}}
   </script>
 
   <script type="text/x-handlebars" data-template-name="login">

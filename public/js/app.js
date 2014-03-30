@@ -22,16 +22,18 @@ App.Result = DS.Model.extend({
 App.Router.map(function() {
   this.route('about');
   this.route('login');
+
   this.resource('lifts', function() {
     this.route('new');
     this.resource('lift', { path: '/:lift_id' }, function() {
       this.route('edit');
-      this.resource('results', function() {
-        this.route('new');
-        this.resource('result', { path: '/:result_id' }, function() {
-          this.route('edit');
-        });
-      });
+    });
+  });
+
+  this.resource('results', function() {
+    this.route('new');
+    this.resource('result', { path: '/:result_id' }, function() {
+      this.route('edit');
     });
   });
 });

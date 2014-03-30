@@ -48,6 +48,11 @@ App.LiftsRoute = Ember.Route.extend({
     return this.store.findAll('lift');
   }
 });
+App.ResultsRoute = Ember.Route.extend({
+  model: function() {
+    return this.store.findAll('result');
+  }
+});
 
 // Controllers
 App.LoginController = Ember.Controller.extend({

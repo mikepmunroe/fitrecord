@@ -27,15 +27,16 @@ App.Router.map(function() {
     this.route('new');
     this.resource('lift', { path: '/:lift_id' }, function() {
       this.route('edit');
+      this.resource('results', function() {
+        this.route('new');
+        this.resource('result', { path: '/:result_id' }, function() {
+          this.route('edit');
+        });
+      });
     });
   });
 
-  this.resource('results', function() {
-    this.route('new');
-    this.resource('result', { path: '/:result_id' }, function() {
-      this.route('edit');
-    });
-  });
+
 });
 
 App.LoginRoute = Ember.Route.extend({

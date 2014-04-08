@@ -32,18 +32,21 @@ App.LoginRoute = Ember.Route.extend({
     this.controllerFor('login').reset();
   }
 });
-App.LiftsRoute = Ember.Route.extend({
+App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return this.store.findAll('lift');
-  }
-});
-App.ResultsRoute = Ember.Route.extend({
-  model: function() {
-    return this.store.findAll('result');
+    return Ember.RSVP.hash({
+      lifts: this.store.findAll('lift'),
+      results: this.store.findAll('result')
+    });
+  },
+  setupController: function(controller, model) {
+    controller.set('lifts', model.lifts);
+    controller.set('results', model.results);
   }
 });
 
-// Controllers
+App.IndexController = Ember.ArrayController.extend({});
+
 App.LoginController = Ember.Controller.extend({
   reset: function() {
     this.setProperties({

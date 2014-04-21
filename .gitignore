@@ -20,4 +20,4 @@ Thumbs.db
 /coverage/*
 npm-debug.log
 
-*.submlime*
+*.sublime*

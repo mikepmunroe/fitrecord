@@ -4,6 +4,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('lift', { path: '/lifts/:lift_id' });
 });
 
 export default Router;

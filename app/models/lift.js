@@ -1,15 +1,18 @@
 var Lift = DS.Model.extend({
-  name: DS.attr()
+  name: DS.attr(),
+  results: DS.hasMany('result', { async: true } )
 });
 
 Lift.reopenClass({
   FIXTURES: [{
       id: 1,
-      name: 'Back Squat'
+      name: 'Back Squat',
+      results: [1]
     },
     {
       id: 2,
-      name: 'Front Squat'
+      name: 'Front Squat',
+      results: [2]
     },
     {
       id: 3,

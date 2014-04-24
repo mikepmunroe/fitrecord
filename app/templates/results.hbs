@@ -1,16 +1,16 @@
 <table class="table">
-  {{#each}}
     <tr>
       <th>Date</th>
       <th>Load</th>
       <th>Rep Scheme</th>
       <th>Notes</th>
     </tr>
+  {{#each}}
     <tr>
       <td>{{date}}</td>
       <td>{{load}}</td>
       <td>{{repScheme}}</td>
-      <td>{{notes}}</td>
+      <td>{{dash-for-null notes}}</td>
     </tr>
   {{/each}}
 </table>

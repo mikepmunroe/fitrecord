@@ -1,7 +1,5 @@
 <ul class="list-unstyled">
   {{#each}}
-    {{name}}
-  {{else}}
-    <li>There are no lifts</li>
+    <li>{{#link-to 'lift' this}}{{name}}{{/link-to}}</li>
   {{/each}}
 </ul>

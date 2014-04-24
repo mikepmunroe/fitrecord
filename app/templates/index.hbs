@@ -1,9 +1,5 @@
 <div class="row">
   <div class="col-sm-8">
-    <ul class="list-unstyled">
-      {{#each}}
-        <li>{{#link-to 'lift' this}}{{name}}{{/link-to}}</li>
-      {{/each}}
-    </ul>
+    {{render 'lifts' this}}
   </div>
 </div>

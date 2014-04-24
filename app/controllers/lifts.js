@@ -1,3 +1,3 @@
-var IndexController = Ember.Controller.extend({});
+var LiftsController = Ember.ArrayController.extend({});
 
-export default IndexController;
+export default LiftsController;

@@ -1,7 +1,13 @@
 <div class="container">
-  {{name}}
-  <table>
+  <h3>{{name}}</h3>
+  <table class="table">
   {{#each results}}
+    <tr>
+      <th>Date</th>
+      <th>Load</th>
+      <th>Rep Scheme</th>
+      <th>Notes</th>
+    </tr>
     <tr>
       <td>{{date}}</td>
       <td>{{load}}</td>

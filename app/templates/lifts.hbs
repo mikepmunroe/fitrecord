@@ -1,5 +1,5 @@
 <ul class="list-unstyled">
   {{#each}}
-    <li>{{#link-to 'lift' this}}{{name}}{{/link-to}}</li>
+    <li {{action 'showResults' this}}>{{name}}</li>
   {{/each}}
 </ul>

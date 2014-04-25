@@ -18,6 +18,7 @@ Result.reopenClass({
     {
       id: 2,
       date: '2/10/2012',
+      lift: 2,
       repScheme: 5,
       load: 155,
       notes: 'work on triceps flexibility'

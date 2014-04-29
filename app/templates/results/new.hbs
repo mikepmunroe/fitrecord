@@ -3,7 +3,7 @@
     <div class="form-group">
       <label for="result_date" class="col-sm-2 control-label">Date</label>
       <div class="col-sm-4">
-        {{input class="form-control" id="result_date" placeholder="Date" value=model.date}}
+        {{view 'date-picker'  valueBinding='controller.sched_date'}}
       </div>
     </div>
     <div class="form-group">

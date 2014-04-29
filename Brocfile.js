@@ -90,12 +90,20 @@ module.exports = function (broccoli) {
 
   var styles = preprocessCss(appAndDependencies, prefix + '/styles', '/assets');
 
+  var bootstrap = pickFiles('vendor', {
+    srcDir: '/bootstrap/dist/css',
+    files: ['bootstrap.css'],
+    destDir: '/assets/'
+  });
+
+
   // Ouput
 
   var outputTrees = [
     indexHTML,
     applicationJs,
     'public',
+    bootstrap,
     styles
   ];
 

@@ -1,5 +1,5 @@
 var Result = DS.Model.extend({
-  date: DS.attr(),
+  date: DS.attr('date'),
   lift: DS.belongsTo('lift'),
   repScheme: DS.attr(),
   load: DS.attr(),
@@ -9,7 +9,7 @@ var Result = DS.Model.extend({
 Result.reopenClass({
   FIXTURES: [{
       id: 1,
-      date: '10/27/2011',
+      date: new Date(),
       lift: 1,
       repScheme: 5,
       load: 195,
@@ -17,7 +17,7 @@ Result.reopenClass({
     },
     {
       id: 2,
-      date: '2/10/2012',
+      date: new Date(),
       lift: 2,
       repScheme: 5,
       load: 155,

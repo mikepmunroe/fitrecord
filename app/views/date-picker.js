@@ -4,7 +4,7 @@ var DatePickerView = Ember.View.extend({
     var onChangeDate, self;
     self = this;
     onChangeDate = function(ev) {
-      return self.set("value", moment.utc(ev.date).format("YYYY-MM-DD"));
+      return self.set("value", ev.date);
     };
     this.$('.datepicker').datepicker({
       separator: "-"

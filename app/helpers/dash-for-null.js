@@ -1,4 +1,4 @@
-export default Ember.Handlebars.makeBoundHelper(function(value, options) {
+export default Ember.Handlebars.makeBoundHelper(function(value) {
   if (value != null) {
     return value;
   } else {

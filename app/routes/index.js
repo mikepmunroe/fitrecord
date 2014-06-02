@@ -3,7 +3,7 @@ var IndexRoute = Ember.Route.extend({
     return Ember.RSVP.hash({
       lifts: this.store.findAll('lift'),
       results: this.store.findAll('result')
-    })
+    });
   },
   setupController: function(controller, model) {
     var lifts = model.lifts;

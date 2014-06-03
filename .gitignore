@@ -1,13 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
+ember/dist
+ember/tmp
 
 # dependencies
-/node_modules
-/vendor/*
-!/vendor/_loader.js
+ember/node_modules
+ember/vendor/*
+!ember/vendor/_loader.js
 
 # misc
 /.sass-cache
@@ -15,7 +15,7 @@
 /libpeerconnection.log
 .DS_Store
 Thumbs.db
-/coverage/*
+ember/coverage/*
 npm-debug.log
-testem.log
+ember/testem.log
 *.sublime*

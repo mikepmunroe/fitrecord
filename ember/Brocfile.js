@@ -13,6 +13,8 @@ var app = new EmberApp({
   getEnvJSON: require('./config/environment')
 });
 
+app.import('vendor/bootstrap/dist/css/bootstrap.css');
+
 // Use this to add additional libraries to the generated output files.
 app.import('vendor/ember-data/ember-data.js');
 
@@ -29,6 +31,5 @@ app.import('vendor/ic-ajax/dist/named-amd/main.js', {
     'request',
   ]
 });
-
 
 module.exports = app.toTree();

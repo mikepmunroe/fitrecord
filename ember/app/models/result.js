@@ -1,3 +1,5 @@
+import DS from 'ember-data';
+
 var Result = DS.Model.extend({
   date: DS.attr('date'),
   lift: DS.belongsTo('lift'),

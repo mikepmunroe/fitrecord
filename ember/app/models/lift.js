@@ -1,3 +1,5 @@
+import DS from 'ember-data';
+
 var Lift = DS.Model.extend({
   name: DS.attr(),
   results: DS.hasMany('result', { async: true } )

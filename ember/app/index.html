@@ -14,11 +14,13 @@
   </head>
   <body>
     <script>
-      window.ENV = {{ENV}};
+      window.FitrecordENV = {{ENV}};
+      window.EmberENV = window.FitrecordENV.EmberENV;
     </script>
+    <script src="assets/vendor.js"></script>
     <script src="assets/fitrecord.js"></script>
     <script>
-      window.Fitrecord = require('fitrecord/app')['default'].create(ENV.APP);
+      window.Fitrecord = require('fitrecord/app')['default'].create(FitrecordENV.APP);
     </script>
   </body>
 </html>

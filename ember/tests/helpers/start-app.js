@@ -2,6 +2,7 @@
 
 var Application = require('fitrecord/app')['default'];
 var Router = require('fitrecord/router')['default'];
+import Ember from 'ember';
 
 export default function startApp(attrs) {
   var App;

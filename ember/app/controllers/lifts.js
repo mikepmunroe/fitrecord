@@ -1,3 +1,5 @@
+import Ember from 'ember';
+
 var LiftsController = Ember.ArrayController.extend({
   actions: {
     showResults: function(lift) {

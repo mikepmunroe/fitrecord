@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2014-06-12
+  lift_id: 1
+  rep_scheme: 1
+  weight: 1
+  notes: MyText
+
+two:
+  date: 2014-06-12
+  lift_id: 1
+  rep_scheme: 1
+  weight: 1
+  notes: MyText

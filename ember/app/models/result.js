@@ -4,7 +4,7 @@ var Result = DS.Model.extend({
   date: DS.attr('date'),
   lift: DS.belongsTo('lift'),
   repScheme: DS.attr(),
-  load: DS.attr(),
+  weight: DS.attr(),
   notes: DS.attr()
 });
 
@@ -14,7 +14,7 @@ Result.reopenClass({
       date: new Date(),
       lift: 1,
       repScheme: 5,
-      load: 195,
+      weight: 195,
       notes: ''
     },
     {
@@ -22,7 +22,7 @@ Result.reopenClass({
       date: new Date(),
       lift: 2,
       repScheme: 5,
-      load: 155,
+      weight: 155,
       notes: 'work on triceps flexibility'
     }]
 });

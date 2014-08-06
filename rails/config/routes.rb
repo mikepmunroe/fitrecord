@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-
-  resources :lifts
-
+  namespace :api do
+    resources :lifts
+    resources :results
+  end
 end

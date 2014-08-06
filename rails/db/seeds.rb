@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+back_squat = Lift.create(name: 'Back Squat')
+front_squat = Lift.create(name: 'Front Squat')
+shoulder_press = Lift.create(name: 'Shoulder Press')
+push_press = Lift.create(name: 'Push Press')
+bench_press = Lift.create(name: 'Bench Press')
+deadlift = Lift.create(name: 'Deadlift')
+pull_up = Lift.create(name: 'Pull Up')
+dip = Lift.create(name: 'Dip')
+
+back_squat.results.create(date: Date.today, rep_scheme: 3, load: 285, notes: "tried 315, but only got 2")
